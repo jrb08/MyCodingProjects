@@ -11,7 +11,7 @@ const values = [];//sets variable "values" to an empty array
 const images = [];//sets variable "images" to an empty array.
 
     //construct a for loop that while i is less than variable numOfDice, the for loop increments by 1
-    for(let i =0; i < numOfDice; i++){
+    for(let dice =0; dice < numOfDice; dice++){
             //set the variable "value" to the Math.floor using Math.random   
             const value = Math.floor(Math.random() * 6) + 1;//the math.random function uses the max range to choose from
             values.push(value); //use push (is a tool) for "values" and "images" arrays  
